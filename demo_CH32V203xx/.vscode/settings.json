@@ -1,0 +1,9 @@
+{
+  "cmake.configureEnvironment": {
+    "CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/cmake/riscv.cmake"
+  },
+  "files.associations": {
+    "debug.h": "c",
+    "ch32v00x.h": "c"
+  }
+}

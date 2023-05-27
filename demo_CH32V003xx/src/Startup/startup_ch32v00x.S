@@ -147,6 +147,7 @@ handle_reset:
     addi a0, a0, 4
     bltu a0, a1, 1b
 2:
+.option arch, +zicsr
     li t0, 0x80
     csrw mstatus, t0
   
